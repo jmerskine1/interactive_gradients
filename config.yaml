@@ -1,0 +1,26 @@
+- data_params:
+    boundary_only: false
+    dataset: TwoMoons
+    knowledge_func: interactive
+    max_delta: 1.0
+    n_vec: 3
+    size: 100
+  hyperparams:
+    batch_size: 128
+    epochs: 100
+    learning_rate: 0.05
+    loss_function: direction_interactive3
+    loss_mix: 0.5
+    model: simple
+    model_io: !!python/tuple
+    - 8
+    - 2
+    model_size: !!python/tuple
+    - 80
+    - 1
+    momentum: 0.5
+    seed: 42
+  visualisation:
+    draw_eval: true
+    plot_epoch: false
+    visualise: false
